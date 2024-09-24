@@ -62,11 +62,11 @@ class Veterinarian:
 
 
 employee = []
-animals = [Reptile("Snake", 10, "mice"), Mammal("Sheep", 1, "grass"), Bird("Crow", 105, "porridge")]
+#animals = [Reptile("Snake", 10, "mice"), Mammal("Sheep", 1, "grass"), Bird("Crow", 105, "porridge")]
 animals = []
 Z1 = Zoo()
 
-employee = [Veterinarian("Joane"), ZooKeeper("Alex")]
+#employee = [Veterinarian("Joane"), ZooKeeper("Alex")]
 with open('our_zoo.txt', 'r') as file:
     for line in file:
         data = line.strip("\n").split()
@@ -106,12 +106,12 @@ employee[0].heal_animal(2)
 employee[1].feed_animal(0)
 
 print("\na new person and a new animal were added, let's see what they do:")
-new_emp = ZooKeeper("Barbara")
+#new_emp = ZooKeeper("Barbara")
 new_anim = Bird("Pigeon", 2, "sunflower_grains")
 
 
 Z1.add_animal(new_anim)
-Z1.add_employee(new_emp)
+#Z1.add_employee(new_emp)
 
 employee[2].feed_animal(3)
 

@@ -1,0 +1,9 @@
+Veterinarian Joane
+ZooKeeper Alex
+ZooKeeper Barbara
+Reptile Snake 10 mice
+Mammal Sheep 1 grass
+Bird Crow 105 porridge
+Bird Pigeon 2 sunflower_grains
+Bird Pigeon 2 sunflower_grains
+Bird Pigeon 2 sunflower_grains
